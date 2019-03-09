@@ -249,7 +249,6 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 .socials-icon-span {
   width: 24px;
   height: 24px;
-  /* cursor: pointer; */
 }
 
 .fab {
@@ -275,4 +274,31 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 
 .fab:hover {
   color: rgb(32, 129, 109);
+}
+
+/* ----- FOOTER ----- */
+
+/* SECTION "FOOTER-FORM" */
+
+.section-footer-form {
+  background-color: rgb(50, 50, 50);
+}
+.form-wrapper {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+}
+
+.footer-copyright {
+  background-color: rgb(34, 34, 34);
+}
+
+.footer-copyright-info {
+  font: 400 13px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  color: rgb(69, 69, 69);
+  padding: 16px 0;
 }
