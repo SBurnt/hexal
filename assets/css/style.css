@@ -1,5 +1,29 @@
+@font-face {
+	font-family: "Lato Black"; /* имя шрифта для CSS правил */
+	src: local("Lato Black"), /* проверяем наличие шрифта в ОС пользователя */
+	url(../fonts/Lato-Black.ttf);	/* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Lato Bold"; /* имя шрифта для CSS правил */
+	src: local("Lato Bold"), /* проверяем наличие шрифта в ОС пользователя */
+	url(../fonts/Lato-Bold.ttf);	/* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Lato Regular"; /* имя шрифта для CSS правил */
+	src: local("Lato Regular"), /* проверяем наличие шрифта в ОС пользователя */
+	url(../fonts/Lato-Regular.ttf);	/* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+@font-face {
+	font-family: "Maven Pro"; /* имя шрифта для CSS правил */
+	src: local("Maven Pro"), /* проверяем наличие шрифта в ОС пользователя */
+	url(../fonts/MavenPro-Regular.ttf);	/* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
 body {
-  font-family: "Lato", "Arial", "Helvetica", sans-serif;
+  font-family: "Lato Regular", "Arial", "Helvetica", sans-serif;
 }
 
 .wrapper {
@@ -59,7 +83,7 @@ body {
 }
 
 .header-menu-a {
-  font: 700 9px "Lato", "Arial", "Helvetica", sans-serif;
+  font: 700 9px "Lato Bold", "Arial", "Helvetica", sans-serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
@@ -292,7 +316,7 @@ input[type="radio"]:nth-of-type(6):checked
 }
 
 .about-me-info-par {
-  font: 400 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
+  font: 400 12px/1.83 "Lato Regular", "Arial", "Helvetica", sans-serif;
   color: rgb(215, 252, 245);
   text-align: justify;
   padding-bottom: 39px;
@@ -381,7 +405,7 @@ input[type="radio"]:nth-of-type(6):checked
   width: 565px;
   height: 38px;
   background-color: rgb(69, 69, 69);
-  font: 400 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
+  font: 400 12px/1.83 "Lato Regular", "Arial", "Helvetica", sans-serif;
   color: rgb(190, 190, 190);
   padding: 0 0 0 15px;
   border: none;
@@ -414,7 +438,7 @@ input[type="radio"]:nth-of-type(6):checked
   width: 90px;
   height: 37px;
   background-color: rgb(46, 178, 151);
-  font: 700 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
+  font: 700 12px/1.83 "Lato Bold", "Arial", "Helvetica", sans-serif;
   color: rgb(215, 252, 245);
   border: none;
   text-transform: uppercase;
@@ -426,7 +450,7 @@ input[type="radio"]:nth-of-type(6):checked
 }
 
 .contacts-info {
-  font: 400 12px/1.73 "Lato", "Arial", "Helvetica", sans-serif;
+  font: 400 12px/1.73 "Lato Regular", "Arial", "Helvetica", sans-serif;
   color: rgb(190, 190, 190);
   text-align: justify;
   width: 180px;
@@ -434,12 +458,12 @@ input[type="radio"]:nth-of-type(6):checked
 }
 
 .contacts-info > span {
-  font-weight: 700;
+  font: 900 12px/1.73 "Lato Black", "Arial", "Helvetica", sans-serif;
   color: rgb(224, 224, 224);
 }
 
 .contact-link {
-  font: 700 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
+  font: 700 12px/1.83 "Lato Bold", "Arial", "Helvetica", sans-serif;
   text-align: justify;
   color: rgb(190, 190, 190);
 }
