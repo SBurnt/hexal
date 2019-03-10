@@ -15,7 +15,19 @@ body {
   margin: 0 auto;
 }
 
-.header:after {
+.header::before {
+  content: "";
+  display: block;
+  width: 57.5%;
+  height: 1px;
+  background-color: rgb(228, 233, 235);
+  position: absolute;
+  top: 74px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header::after {
   content: "";
   width: 0;
   height: 0;
@@ -26,6 +38,7 @@ body {
   top: 63px;
   left: 50%;
   transform: translateX(-50%);
+  background-color: white;
 }
 
 .header-menu {
@@ -79,11 +92,34 @@ body {
 
 .hexagon-row-four {
   margin-top: 80px;
+  position: relative;
 }
 
 .hexagon-row-four:not(:first-child) {
   margin-top: -60px;
   margin-bottom: 43px;
+}
+
+.hexagon-row-four::before {
+  content: "";
+  width: 0;
+  height: 104px;
+  border-left: 1px solid rgb(228, 233, 235);
+  position: absolute;
+  top: 50%;
+  left: -11px;
+  transform: translateY(-50%);
+}
+
+.hexagon-row-four::after {
+  content: "";
+  width: 0;
+  height: 104px;
+  border-left: 1px solid rgb(228, 233, 235);
+  position: absolute;
+  top: 50%;
+  right: -11px;
+  transform: translateY(-50%);
 }
 
 .hexagon-row-five {
