@@ -57,7 +57,7 @@ body {
   height: 0;
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-top: 26px solid rgba(50, 50, 50);
+  border-top: 26px solid rgb(50, 50, 50);
   position: absolute;
   top: 63px;
   left: 50%;
