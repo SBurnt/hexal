@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Lato", "Arial", "Helvetica", sans-serif;
 }
 
 /* ----- HEADER ----- */
@@ -68,7 +68,8 @@ body {
   align-items: center;
 }
 
-.hexagon-row-four, .hexagon-row-five {
+.hexagon-row-four,
+.hexagon-row-five {
   display: inline-flex;
 }
 
@@ -162,11 +163,28 @@ body {
   background: url("../img/hex13.jpg") no-repeat -10px -6px;
 }
 
-input[type=radio] {
+input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(1), input[type="radio"]:nth-of-type(2):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(2), input[type="radio"]:nth-of-type(3):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(3), input[type="radio"]:nth-of-type(4):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(4), input[type="radio"]:nth-of-type(5):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(5), input[type="radio"]:nth-of-type(6):checked~.portfolio-slide-controls .portfolio-control:nth-of-type(6) {
+input[type="radio"]:nth-of-type(1):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(1),
+input[type="radio"]:nth-of-type(2):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(2),
+input[type="radio"]:nth-of-type(3):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(3),
+input[type="radio"]:nth-of-type(4):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(4),
+input[type="radio"]:nth-of-type(5):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(5),
+input[type="radio"]:nth-of-type(6):checked
+  ~ .portfolio-slide-controls
+  .portfolio-control:nth-of-type(6) {
   background-color: rgb(139, 135, 132);
 }
 
@@ -223,18 +241,18 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 }
 
 .about-me-info-name {
-  font: 400 30px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  font: 400 30px "Maven Pro", "Arial", "Helvetica", sans-serif;
   color: rgb(215, 252, 245);
 }
 
 .about-me-info-prename {
-  font: 400 18px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  font: 400 18px "Maven Pro", "Arial", "Helvetica", sans-serif;
   color: rgb(32, 129, 109);
   padding-bottom: 13px;
 }
 
 .about-me-info-par {
-  font: 400 12px/1.83 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font: 400 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
   color: rgb(215, 252, 245);
   text-align: justify;
   padding-bottom: 39px;
@@ -254,17 +272,20 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 .fab {
   width: 24px;
   height: 24px;
-  margin: 5px 5px;
-  font-size: 15px;
+  margin: 6px 7px;
+  font-size: 13px;
   color: rgb(46, 179, 152);
   cursor: pointer;
 }
 
-.facebook, .pinterest, .linkedin {
+.facebook,
+.pinterest,
+.linkedin {
   background-color: rgb(171, 220, 215);
 }
 
-.twitter, .dribbble {
+.twitter,
+.dribbble {
   background-color: rgb(108, 203, 190);
 }
 
@@ -286,8 +307,8 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 }
 
 .footer-form {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid rgb(43, 43, 43);
+  border-bottom: 1px solid rgb(43, 43, 43);
   padding-top: 45px;
   padding-left: 91px;
   padding-bottom: 52px;
@@ -299,12 +320,12 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
 }
 
 .footer-form-name {
-  font: 400 30px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  font: 400 30px "Maven Pro", "Arial", "Helvetica", sans-serif;
   color: rgb(224, 224, 224);
 }
 
 .footer-form-prename {
-  font: 400 18px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  font: 400 18px "Maven Pro", "Arial", "Helvetica", sans-serif;
   color: rgb(190, 190, 190);
   padding-bottom: 20px;
 }
@@ -319,11 +340,27 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
   width: 565px;
   height: 38px;
   background-color: rgb(69, 69, 69);
-  font: 400 12px/1.83 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font: 400 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
   color: rgb(190, 190, 190);
   padding: 0 0 0 15px;
   border: none;
   margin-bottom: 16px;
+}
+
+.form-input::-webkit-input-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.form-input::-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.form-input:-moz-placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.form-input:-ms-input-placeholder {
+  color: rgb(190, 190, 190);
 }
 
 .form-input-textarea {
@@ -336,7 +373,7 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
   width: 90px;
   height: 37px;
   background-color: rgb(46, 178, 151);
-  font: 700 12px/1.83 'Lato', 'Arial', 'Helvetica', sans-serif;
+  font: 700 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
   color: rgb(215, 252, 245);
   border: none;
   cursor: pointer;
@@ -346,12 +383,36 @@ input[type="radio"]:nth-of-type(1):checked~.portfolio-slide-controls .portfolio-
   padding-left: 20px;
 }
 
+.contacts-info {
+  font: 400 12px/1.73 "Lato", "Arial", "Helvetica", sans-serif;
+  color: rgb(190, 190, 190);
+  text-align: justify;
+  width: 180px;
+  padding-bottom: 37px;
+}
+
+.contacts-info > span {
+  font-weight: 700;
+  color: rgb(224, 224, 224);
+}
+
+.contact-link {
+  font: 700 12px/1.83 "Lato", "Arial", "Helvetica", sans-serif;
+  text-align: justify;
+  color: rgb(190, 190, 190);
+}
+
+.fas {
+  color: rgb(46, 179, 152);
+  padding-right: 14px;
+}
+
 .footer-copyright {
   background-color: rgb(34, 34, 34);
 }
 
 .footer-copyright-info {
-  font: 400 13px 'Maven Pro', 'Arial', 'Helvetica', sans-serif;
+  font: 400 12px "Maven Pro", "Arial", "Helvetica", sans-serif;
   color: rgb(69, 69, 69);
-  padding: 16px 0;
+  padding: 13px 0 15px 39px;
 }
