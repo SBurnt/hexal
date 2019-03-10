@@ -151,36 +151,40 @@
   </main>
   <footer class="footer">
     <section class="section-footer-form">
-      <div class="footer-form">
-        <div>
-          <h2>Get In Touch</h2>
-          <h3>In order to get in touch use the contact form below:</h3>
-        </div>
-        <div class="form-wrapper">
-          <form action="mailto:" class="form">
-            <input type="text" name="name" value="Name (Required)" required>
-            <input type="email" name="email" value="Email (Required)" required>
-            <input type="text" name="subject" value="Subject">
-            <textarea name="textarea" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-            <input type="submit" value="SEND">
-          </form>
+      <div class="wrapper">
+        <div class="footer-form">
           <div>
-            <p><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam
-              tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
-            <div>
-              <ul class="contact-links">
-                <li class=""><a class="contact-link" href="#"><i class="fas fa-map-marker-alt"></i>Elm St. 14/05 Lost
-                    City</a></li>
-                <li class=""><a class="contact-link" href="tel:000000000000"><i class="fas fa-phone"></i>0000-0000-0000</a></li>
-                <li class=""><a class="contact-link" href="mailto:info@hexalcorp.com"><i class="fas fa-envelope"></i>info@hexalcorp.com</a></li>
-              </ul>
+            <h2 class="footer-form-name">Get In Touch</h2>
+            <h3 class="footer-form-prename">In order to get in touch use the contact form below:</h3>
+          </div>
+          <div class="form-wrapper">
+            <form action="mailto:" class="form">
+              <input class="form-input" type="text" name="name" placeholder="Name (Required)" required>
+              <input class="form-input" type="email" name="email" placeholder="Email (Required)" required>
+              <input class="form-input" type="text" name="subject" placeholder="Subject">
+              <textarea class="form-input form-input-textarea" name="textarea" placeholder="Write your message here..."></textarea>
+              <input type="submit" class="form-btn-send" value="SEND">
+            </form>
+            <div class="contacts">
+              <p><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam
+                tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+              <div>
+                <ul class="contact-links">
+                  <li class=""><a class="contact-link" href="#"><i class="fas fa-map-marker-alt"></i>Elm St. 14/05 Lost
+                      City</a></li>
+                  <li class=""><a class="contact-link" href="tel:000000000000"><i class="fas fa-phone"></i>0000-0000-0000</a></li>
+                  <li class=""><a class="contact-link" href="mailto:info@hexalcorp.com"><i class="fas fa-envelope"></i>info@hexalcorp.com</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="footer-copyright">
-      <h3 class="footer-copyright-info">© Copyright 2013 by PSDchat</h3>
+      <div class="wrapper">
+        <h3 class="footer-copyright-info">© Copyright 2013 by PSDchat</h3>
+      </div>
     </section>
   </footer>
 </body>
